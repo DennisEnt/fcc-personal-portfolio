@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 html,
 body {
   font-family: 'Open Sans', sans-serif;
@@ -47,11 +46,19 @@ nav ul li a:hover {
   }
 }
 
-.intro {
+#welcome-section {
+  height: 100vh;
   top: 0;
   background: #e0ebe8;
-  min-height: 55vh;
-  padding-top: 45vh;
+  display: flex;
+}
+
+h1 {
+  margin: auto;
+  font-size: 30px;
+  /* justify-content: center;
+  align-content: center;
+  text-align: center; */
 }
 
 .profile {
@@ -61,7 +68,6 @@ nav ul li a:hover {
   min-height: 35vh;
   padding-top: 35vh;
 }
-
 
 .project-title {
   font-weight: bold;
